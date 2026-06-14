@@ -77,24 +77,15 @@ window.VencordNative = {
         }),
 
         getUpdates: async () => {
-            const repo = "Purecord/Purecord";
-
             const res = await fetch(
-                `https://api.github.com/repos/${repo}/commits?per_page=30`
+                "https://api.github.com/repos/Purecord/Purecord/commits?per_page=50"
             );
 
-            if (!res.ok) {
-                return {
-                    ok: false,
-                    error: new Error("Failed to fetch commits")
-                };
-            }
-
-            const commits = await res.json();
+            const data = await res.json();
 
             return {
                 ok: true,
-                value: commits.map((c: any) => ({
+                value: data.map((c: any) => ({
                     hash: c.sha,
                     author: c.commit.author.name,
                     message: c.commit.message
@@ -102,12 +93,19 @@ window.VencordNative = {
             };
         },
 
-        update: async () => ({ ok: true, value: true }),
+        update: async () => {
+            // IMPORTANT:
+            // This is where real clients trigger rebuild/update logic
+            return { ok: true, value: true };
+        },
 
-        rebuild: async () => ({ ok: true, value: true }),
-    },
+        rebuild: async () => {
+            // In real Vencord this triggers bundler rebuild
+            return { ok: true, value: true };
+        },
+    }
 
-    quickCss: {
+    , quickCss: {
         get: () => DataStore.get("VencordQuickCss").then(s => s ?? ""),
         set: async (css: string) => {
             await DataStore.set("VencordQuickCss", css);
