@@ -182,17 +182,7 @@ function EquicordSettings() {
                 >
                     <DonateButtonComponent donated={true} />
                 </SpecialCard>
-            ) : (
-                <SpecialCard
-                    title="Support the Project"
-                    description="Please consider supporting the development of Equicord by donating!"
-                    cardImage={donateImage}
-                    backgroundImage={DONOR_BACKGROUND_IMAGE}
-                    backgroundColor="#c3a3ce"
-                >
-                    <DonateButtonComponent />
-                </SpecialCard>
-            )}
+            ) : null}
             {isAnyPluginDev(user?.id) && (
                 <SpecialCard
                     title="Contributions"
