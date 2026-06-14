@@ -20,8 +20,6 @@ Linux
 
 coming soon.
 
-> :exclamation: **IMPORTANT** Make sure you aren't using an admin/root terminal from here onwards. It **will** mess up your Discord/Purecord instance and you **will** most likely have to reinstall.
-
 ## Credits
 
 Thank you to [Equicord](https://github.com/Equicord/Equicord) for creating [Equicord](https://github.com/Equicord/Equicord)
