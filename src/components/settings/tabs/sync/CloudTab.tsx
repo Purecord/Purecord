@@ -97,8 +97,8 @@ function CloudTab() {
             </Paragraph>
 
             <Notice.Info className={Margins.bottom16}>
-                We use our own <Link href="https://github.com/Equicord/Equicloud">Equicloud backend</Link> with enhanced features.
-                View our <Link href="https://equicord.org/cloud/policy">privacy policy</Link> to see what we store and how we use your data.
+                We use Equicords <Link href="https://github.com/Equicord/Equicloud">Equicloud backend</Link> with enhanced features.
+                View their <Link href="https://equicord.org/cloud/policy">privacy policy</Link> to see what they store and how they use your data.
                 Equicloud is BSD 3.0 licensed, so you can self-host if preferred.
             </Notice.Info>
 

@@ -1,8 +1,8 @@
 {
-    "name": "equicord",
+    "name": "Purecord",
     "private": "true",
     "version": "1.14.13.3",
-    "description": "The other cutest Discord client mod",
+    "description": "Discord built Better - the way it should be.",
     "homepage": "https://github.com/Equicord/Equicord#readme",
     "bugs": {
         "url": "https://github.com/Equicord/Equicord/issues"
@@ -12,7 +12,7 @@
         "url": "git+https://github.com/Equicord/Equicord.git"
     },
     "license": "GPL-3.0-or-later",
-    "author": "Equicord",
+    "author": "Purecord",
     "scripts": {
         "build": "pnpm depCheck && node --require=./scripts/suppressExperimentalWarnings.js scripts/build/build.mjs",
         "buildStandalone": "pnpm build --standalone",

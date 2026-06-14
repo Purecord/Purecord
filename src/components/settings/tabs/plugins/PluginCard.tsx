@@ -131,8 +131,6 @@ export function PluginCard({ plugin, disabled, onRestartNeeded, onMouseEnter, on
     return (
         <AddonCard
             name={plugin.name}
-            sourceBadge={sourceBadge}
-            tooltip={tooltip}
             description={plugin.description}
             isNew={isNew}
             enabled={isEnabled()}
