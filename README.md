@@ -20,10 +20,6 @@ Linux
 
 coming soon.
 
-```shell
-bash -c "$(curl -sS https://raw.githubusercontent.com/Equicord/Equicord/refs/heads/main/misc/install.sh)"
-```
-
 ## Installing Purecord Devbuild
 
 ### Dependencies
