@@ -20,56 +20,7 @@ Linux
 
 coming soon.
 
-## Installing Purecord Devbuild
-
-### Dependencies
-
-[Git](https://git-scm.com/download) and [Node.JS LTS](https://nodejs.dev/en/) are required.
-
-Install `pnpm`:
-
-> :exclamation: This next command may need to be run as admin/root depending on your system, and you may need to close and reopen your terminal for pnpm to be in your PATH.
-
-```shell
-npm i -g pnpm
-```
-
 > :exclamation: **IMPORTANT** Make sure you aren't using an admin/root terminal from here onwards. It **will** mess up your Discord/Purecord instance and you **will** most likely have to reinstall.
-
-Clone Purecord:
-
-```shell
-git clone https://github.com/Equicord/Equicord
-cd Equicord
-```
-
-Install dependencies:
-
-```shell
-pnpm install --frozen-lockfile
-```
-
-Build Purecord:
-
-```shell
-pnpm build
-```
-
-Inject Purecord into your desktop client:
-
-```shell
-pnpm inject
-```
-
-Build Purecord for web:
-
-```shell
-pnpm buildWeb
-```
-
-After building Purecord's web extension, locate the appropriate ZIP file in the `dist` directory and follow your browser’s guide for installing custom extensions, if supported.
-
-Note: Firefox extension zip requires Firefox for developers
 
 ## Credits
 
