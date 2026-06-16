@@ -94,13 +94,10 @@ window.VencordNative = {
         },
 
         update: async () => {
-            // IMPORTANT:
-            // This is where real clients trigger rebuild/update logic
             return { ok: true, value: true };
         },
 
         rebuild: async () => {
-            // In real Vencord this triggers bundler rebuild
             return { ok: true, value: true };
         },
     }
