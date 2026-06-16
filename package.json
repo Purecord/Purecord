@@ -1,15 +1,15 @@
 {
     "name": "Purecord",
     "private": "true",
-    "version": "1.14.13.3",
+    "version": "1.14.14.0",
     "description": "Discord built Better - the way it should be.",
-    "homepage": "https://github.com/Equicord/Equicord#readme",
+    "homepage": "https://github.com/Purecord/Purecord#readme",
     "bugs": {
-        "url": "https://github.com/Equicord/Equicord/issues"
+        "url": "https://github.com/Purecord/Purecord/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Equicord/Equicord.git"
+        "url": "git+https://github.com/Purecord/Purecord.git"
     },
     "license": "GPL-3.0-or-later",
     "author": "Purecord",
