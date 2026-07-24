@@ -88,7 +88,7 @@ function Updater() {
             <EquibopSection />
             <Heading className={Margins.top16}>Update Preferences</Heading>
             <Paragraph className={Margins.bottom20}>
-                Control how Equicord keeps itself up to date. You can choose to update automatically in the background or be notified when new updates are available.
+                Control how Purecord keeps itself up to date. You can choose to update automatically in the background or be notified when new updates are available.
             </Paragraph>
 
             <FormSwitch
